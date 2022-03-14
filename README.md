@@ -8,7 +8,8 @@ By using VBA, we will be able to assist Steve with going through our analysis ju
 He loved being able to analyze each stock at the click of a button and now wants to expand his research beyond the 12 green stocks.
 Since Steve wants to analyse a high number of stocks we had to improve our code by refactoring it for the code to run faster and efficiently which is what I will be demonstrating below.
 # Result
-As mentioned above I have refactored the code to make it run more efficiently and easy to read and modify for future users.
+As mentioned above I have refactored the code to make it run more efficiently and easy to read and modify for future users. The original code included creation of the headers, ticker array, total daily volume and returns while the refactored was easy to understand and allowed me to run the calculations faster
+Below are both original code and refactored to show how different they looked 
 
 #### Original Code
 ```
