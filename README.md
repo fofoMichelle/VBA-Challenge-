@@ -12,7 +12,7 @@ As mentioned above I have refactored the code to make it run more efficiently an
 
 ##Original Code
 
-'''Sub AllStocksAnalysis()
+`'''Sub AllStocksAnalysis()
  Dim startTime As Single
     Dim endTime  As Single
 yearValue = InputBox("What year would you like to run the analysis on?")
@@ -91,7 +91,7 @@ Next i
   endTime = Timer
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
-End Sub'''
+End Sub'''`
 
 ##Refactored Code
 
