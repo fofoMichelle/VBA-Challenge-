@@ -237,14 +237,14 @@ Based on the screenshot below we can clear see that these stocks performed well 
 > 2017 performance
 ![VBA challenge 2017 refactored png(refactored)](https://user-images.githubusercontent.com/99924850/158088187-80fa7c83-3e99-4762-919b-551c3b45b555.png)
 
-#Summary
-##Advantages of refactoring a code
+# Summary
+## Advantages of refactoring a code
 .* The code will run faster which can be useful when you have a huge amount of data, below I have included the execution time for 2018 to show the improvement in execution time 
 ![VBA_Challenge_2018 Original png](https://user-images.githubusercontent.com/99924850/158088564-2ad58292-65e5-4c1f-a0fc-7f7c871a6999.png)
 ![VBA_Challenge_2018 refactored png](https://user-images.githubusercontent.com/99924850/158088584-f01815c7-7bd3-40ca-a917-15f5bdf2388f.png)
 
 .* Clean code are easier to understand and improve
-##Disadavatanges
+## Disadavatanges
 .* Refactoring a code can be time consuming
 .* There is a room for error especially when working with applications that are too large
 Regarding how this apply to our vba script, we have clearly improved our code's execution time but was this worth the time if our original code was already running efficiently.
