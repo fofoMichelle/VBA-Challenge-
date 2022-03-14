@@ -9,8 +9,10 @@ He loved being able to analyze each stock at the click of a button and now wants
 Since Steve wants to analyse a high number of stocks we had to improve our code by refactoring it for the code to run faster and efficiently which is what I will be demonstrating below.
 # Result
 As mentioned above I have refactored the code to make it run more efficiently and easy to read and modify for future users.
+
 ##Original Code
-`Sub AllStocksAnalysis()
+
+'''Sub AllStocksAnalysis()
  Dim startTime As Single
     Dim endTime  As Single
 yearValue = InputBox("What year would you like to run the analysis on?")
@@ -89,9 +91,11 @@ Next i
   endTime = Timer
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
-End Sub`
+End Sub'''
+
 ##Refactored Code
-`Sub AllStocksAnalysisRefactored()
+
+'''Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
 
@@ -221,7 +225,8 @@ End Sub`
     endTime = Timer
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
-End Sub`
+End Sub'''
+
 ## Analysis
 Based on the screenshot below we can clear see that these stocks performed well in 2017 whereas there was a huge decline in returns in 2018 where only 2 stocks had a gain which will allow Steve to show to his parents that it might not be a good idea to invest in these stocks when looking at their return in 2018.
 
